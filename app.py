@@ -8,8 +8,8 @@ from tensorflow.keras.models import load_model
 st.set_page_config(page_title="QuantumFinance - Demo Deep Learning", layout="wide")
 
 # --- Configuração dos caminhos dos modelos e scalers ---
-CAMINHO_MODELOS_CLF = r"G:\Meu Drive\AI_data_lab\Cursos_ml_AI\Fiap\Deep learning\notebooks\Projeto_final_2\Rede_Neural_FIAP_MBA_QuantumFinance\models\modelos_salvos"
-CAMINHO_MODELOS_SERIE = r"G:\Meu Drive\AI_data_lab\Cursos_ml_AI\Fiap\Deep learning\notebooks\Projeto_final_2\Rede_Neural_FIAP_MBA_QuantumFinance\models\modelos_temporais"
+CAMINHO_MODELOS_CLF = "models\modelos_salvos"
+CAMINHO_MODELOS_SERIE = "models\modelos_temporais"
 
 TICKERS = ['VALE3', 'BBAS3', 'PETR4', 'CSNA3']
 
