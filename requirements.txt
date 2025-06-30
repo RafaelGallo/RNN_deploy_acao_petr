@@ -1,0 +1,16 @@
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+tensorflow==2.16.1
+keras==2.16.0
+joblib==1.4.2
+# Caso utilize imagens:
+Pillow==10.3.0
+# Caso use gráficos interativos (opcional)
+plotly==5.21.0
+# Caso use outras dependências específicas, adicione abaixo
+
+# pip install -r requirements.txt
